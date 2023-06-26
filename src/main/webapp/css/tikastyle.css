@@ -1,0 +1,21 @@
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    height: 600px;
+}
+
+nav img {
+    height: 96px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #374CD4;
+}
+
+footer {
+    background-color: #374CD4;
+}
