@@ -1,0 +1,13 @@
+.carousel-item {
+    height: 768px;
+}
+
+.carousel-item img {
+    height: 768px;
+}
+
+nav img {
+    height: 96px;
+    margin: 0;
+    padding: 0;
+}

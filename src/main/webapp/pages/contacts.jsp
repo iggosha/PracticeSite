@@ -8,14 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="icon" href="${pageContext.request.contextPath}/images/favicon.ico">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/tikastyle.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/MM-style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="${pageContext.request.contextPath}/main">
-            <img src="${pageContext.request.contextPath}/images/transpar-sign.png" alt="Логотип минимал">
+            <img src="${pageContext.request.contextPath}/images/MM-long-transpar.png" alt="Логотип минимал">
         </a>
         <%--Кнопка, появляющаяся при открытии с устройств с малой шириной дисплея--%>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -26,19 +26,20 @@
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav me-auto mb-">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Вклады</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/main">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Кредиты</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/tariffs.jsp">Тарифы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Ипотеки</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/services.jsp">Услуги</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Карты</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/payment.jsp">Оплата</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/contacts.jsp">Отделения и банкоматы</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/contacts.jsp">Отделения и
+                        конакты</a>
                 </li>
             </ul>
             <form class="d-flex">
@@ -48,8 +49,7 @@
         </div>
     </div>
 </nav>
-
-<div>
+<div class="container">
     <h1>Наши адреса в Белгороде:</h1><br>
     <table>
         <tr>
@@ -119,15 +119,36 @@
     </table>
 </div>
 
-<footer class="text-light">
-    © 2023 ПАО «ТикаБанк»
-    <br>
-    Наш телефон:<a href="tel:+71234567890" class="link-light link-underline-light">+7(123)456-78-90</a>
-    <br>
-    Электронная почта для партнёров:<a href="mailto:tikabankpart@tika.ru" class="link-light link-underline-light">tikabankpart@tika.ru</a>
-    <br>
-    Электронная почта для клиентов:<a href="mailto:tikabankclient@tika.ru" class="link-light link-underline-light">tikabankclient@tika.ru</a>
-    <br>
+
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                Наш телефон:
+                <a href="tel:+71234567890" class="link-light link-underline-light">+7(123)456-78-90
+                </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                Электронная почта для партнёров:
+                <a href="mailto:molniamobilepart@mol.ru" class="link-light link-underline-light">molniamobilepart@mol.ru
+                </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                Электронная почта для клиентов:
+                <a href="mailto:molniamobilepart@mol.ru" class="link-light link-underline-light">molniamobilepart@mol.ru
+                </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                © 2023 ООО «Молния Мобайл». Все права защищены.
+            </div>
+        </div>
+    </div>
 </footer>
 
 
