@@ -49,6 +49,13 @@
         </div>
     </div>
 </nav>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="${pageContext.request.contextPath}/main">
+            <img src="${pageContext.request.contextPath}/images/MM-long-transpar.png" alt="Логотип минимал">
+        </a>
+    </div>
+</nav>
 
 <div class="container">
     <div class="row">

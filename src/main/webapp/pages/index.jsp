@@ -49,7 +49,13 @@
         </div>
     </div>
 </nav>
-
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="${pageContext.request.contextPath}/main">
+            <img src="${pageContext.request.contextPath}/images/MM-long-transpar.png" alt="Логотип минимал">
+        </a>
+    </div>
+</nav>
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -61,14 +67,16 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item">
-            <img src="${pageContext.request.contextPath}/images/phone-clouds-1024.png" class="d-block w-100" alt="з2">
+            <img src="${pageContext.request.contextPath}/images/ad-banner-1.png"
+                 class="d-block w-100" alt="Реклама 1">
         </div>
         <div class="carousel-item active">
-            <img src="${pageContext.request.contextPath}/images/phone-clouds-1024-2.png"
-                 class="d-block w-100" alt="з1">
+            <img src="${pageContext.request.contextPath}/images/ad-banner-2.png"
+                 class="d-block w-100" alt="Реклама 2">
         </div>
         <div class="carousel-item">
-            <img src="${pageContext.request.contextPath}/images/phone-clouds-1024-3.png" class="d-block w-100" alt="з3">
+            <img src="${pageContext.request.contextPath}/images/ad-banner-3.png"
+                 class="d-block w-100" alt="Реклама 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
