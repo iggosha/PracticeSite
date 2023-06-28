@@ -1,23 +1,28 @@
-/*.carousel-item {
-    height: 512px;
-}
-
-.carousel-item img {
-    height: 512px;
-}*/
-
 nav img {
-    width: 192px;
+    width: 10vw;
     margin: 0;
     padding: 0;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #0D6EFD; /*Цвет скролла*/
+    background-color: #0D6EFD;
 }
+
 ::-webkit-scrollbar-thumb {
-    background-color: #FFC107; /*Цвет ползунка*/
+    background-color: #FFC107;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .50) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .50) 50%,
+    rgba(255, 255, 255, .50) 75%,
+    transparent 75%,
+    transparent);
 }
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #CF9107;
+}
+
 ::-webkit-scrollbar {
-    width: 10px;  /*Толщина скролла*/
+    width: 0.75vw; /*Толщина скролла*/
 }
