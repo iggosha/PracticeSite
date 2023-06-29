@@ -49,7 +49,7 @@
     </button>
 </div>
 
-<div class="container">
+<div class="container bg-dark text-light border border-5 border-opacity-25 border-primary">
     <div class="row">
         <div class="col-md-6">
             <img src="${pageContext.request.contextPath}/images/phone-sun.png" class="w-100"

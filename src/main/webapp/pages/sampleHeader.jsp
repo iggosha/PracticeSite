@@ -25,19 +25,17 @@
                     <a class="nav-link" href="${pageContext.request.contextPath}/pages/services.jsp">Услуги</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/payment.jsp">Оплата</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/news.jsp">Новости и блог</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/news.jsp">Новости и акции</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/contacts.jsp">Отделения и
-                        конакты</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/pages/contacts.jsp">Контакты и
+                        поддержка
+                    </a>
                 </li>
             </ul>
             <div class="d-flex">
                 <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Войти
+                    Личный кабинет
                 </button>
             </div>
         </div>

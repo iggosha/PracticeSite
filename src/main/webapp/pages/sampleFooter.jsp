@@ -23,7 +23,7 @@
                 </li>
                 <li class="my-3">
                     <a href="https://vk.com" style="text-decoration: none"> <img
-                            src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/TfKk/QGyS93cW7/PNG%20-%20digital/VK%20Logo.png"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VK_Compact_Logo_%282021-present%29.svg/2048px-VK_Compact_Logo_%282021-present%29.svg.png"
                             alt="Вконтакте" style="height: 2em">
                     </a>
                     <a href="https://web.telegram.org/z/" style="text-decoration: none">
