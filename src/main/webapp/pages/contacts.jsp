@@ -82,8 +82,8 @@
 
         <div class="row ">
             <div class="col d-flex justify-content-center">
-            <form class="w-50  border border-5 border-primary p-5 mb-5">
-                <h5>Форма обратной связи</h5>
+            <form class="w-50  border border-1 border-primary p-5 mb-5">
+                <h5>Форма обратной связи для отзывов или обращений</h5>
                 <div class="form-group">
                     <label for="name">Имя:</label>
                     <input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
@@ -93,11 +93,15 @@
                     <input type="email" class="form-control" id="email" placeholder="Введите ваш email">
                 </div>
                 <div class="form-group">
+                    <label for="theme">Тема обращения:</label>
+                    <input type="text" class="form-control" id="theme" placeholder="Введите тему обращения">
+                </div>
+                <div class="form-group">
                     <label for="message">Сообщение:</label>
                     <textarea class="form-control" id="message" rows="5"
                               placeholder="Введите ваше сообщение"></textarea>
                 </div>
-                <button type="submit" class="btn btn-warning">Отправить</button>
+                <button type="submit" class="btn btn-warning mt-5" onclick="alert('Сообщение отправлено')">Отправить</button>
             </form>
             </div>
         </div>

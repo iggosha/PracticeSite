@@ -16,56 +16,76 @@
 <%@ include file="sampleHeader.jsp" %>
 
 
-<%--News--%>
+<%--Новости--%>
 <div class="container bg-dark text-light border border-5 border-opacity-25 border-primary">
-    <div class="row my-3">
+    <div class="row my-1">
         <h2>Новости</h2>
-        <%--news card--%>
+        <%--Карточки новостей--%>
         <div class="col-sm-6 mb-3">
-            <div class="card ">
-                <div class="card-body text-light bg-dark border border-5 border-primary">
-                    <h5 class="card-title">Заголовок новости <span class="badge bg-warning text-dark rounded-pill">23/06/2023</span></h5>
+            <div class="card border border-primary border-1 rounded">
+                <div class="card-body text-light bg-dark shadow-lg">
+                    <h5 class="card-title">Заголовок новости <span class="badge bg-primary text-light rounded-pill">23/06/2023</span></h5>
                     <p class="card-text">Описание новости</p>
                     <a href="#" class="btn btn-warning">Подробнее</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 mb-3">
-            <div class="card">
-                <div class="card-body text-light bg-dark border border-5 border-primary">
-                    <h5 class="card-title">Заголовок новости <span class="badge bg-warning text-dark rounded-pill">23/06/2023</span></h5>
+            <div class="card border border-primary border-1 rounded">
+                <div class="card-body text-light bg-dark shadow-lg">
+                    <h5 class="card-title">Заголовок новости <span class="badge bg-primary text-light rounded-pill">23/06/2023</span></h5>
                     <p class="card-text">Описание новости</p>
                     <a href="#" class="btn btn-warning">Подробнее</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 mb-3">
-            <div class="card">
-                <div class="card-body text-light bg-dark border border-5 border-primary">
-                    <h5 class="card-title">Заголовок новости <span class="badge bg-warning text-dark rounded-pill">23/06/2023</span></h5>
+            <div class="card border border-primary border-1 rounded">
+                <div class="card-body text-light bg-dark shadow-lg">
+                    <h5 class="card-title">Заголовок новости <span class="badge bg-primary text-light rounded-pill">23/06/2023</span></h5>
                     <p class="card-text">Описание новости</p>
                     <a href="#" class="btn btn-warning">Подробнее</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 mb-3">
-            <div class="card">
-                <div class="card-body text-light bg-dark border border-5 border-primary">
-                    <h5 class="card-title">Заголовок новости <span class="badge bg-warning text-dark rounded-pill">23/06/2023</span></h5>
+            <div class="card border border-primary border-1 rounded">
+                <div class="card-body text-light bg-dark shadow-lg">
+                    <h5 class="card-title">Заголовок новости <span class="badge bg-primary text-light rounded-pill">23/06/2023</span></h5>
+                    <p class="card-text">Описание новости</p>
+                    <a href="#" class="btn btn-warning">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 mb-3">
+            <div class="card border border-primary border-1 rounded">
+                <div class="card-body text-light bg-dark shadow-lg">
+                    <h5 class="card-title">Заголовок новости <span class="badge bg-primary text-light rounded-pill">23/06/2023</span></h5>
+                    <p class="card-text">Описание новости</p>
+                    <a href="#" class="btn btn-warning">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 mb-3">
+            <div class="card border border-primary border-1 rounded">
+                <div class="card-body text-light bg-dark shadow-lg">
+                    <h5 class="card-title">Заголовок новости <span class="badge bg-primary text-light rounded-pill">23/06/2023</span></h5>
                     <p class="card-text">Описание новости</p>
                     <a href="#" class="btn btn-warning">Подробнее</a>
                 </div>
             </div>
         </div>
     </div>
-    <%--Accordion--%>
-    <div class="row my-5">
+</div>
+<div class="container bg-dark text-light border border-5 border-opacity-25 border-primary">
+    <%--Аккордеон для ЧаВо--%>
+    <div class="row my-1">
         <div class="col text-light">
             <h2>Частые вопросы</h2>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item bg-dark text-light border-primary">
                     <h2 class="accordion-header ">
-                        <button class="accordion-button bg-dark text-light " type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button bg-warning text-dark" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Вопрос: Как я могу перенести свой номер к вам?
                         </button>
@@ -81,7 +101,7 @@
                 </div>
                 <div class="accordion-item bg-dark text-light border-primary">
                     <h2 class="accordion-header ">
-                        <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button bg-warning text-dark" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                             Вопрос: Что делать, если у меня нет сигнала связи?
                         </button>
@@ -98,7 +118,7 @@
                 </div>
                 <div class="accordion-item bg-dark text-light border-primary">
                     <h2 class="accordion-header ">
-                        <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button bg-warning text-dark" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                             Вопрос: Как настроить интернет на моем телефоне?
                         </button>
