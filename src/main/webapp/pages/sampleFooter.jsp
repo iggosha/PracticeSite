@@ -39,7 +39,7 @@
                     <form class="d-flex justify-content-center">
                         <input class="form-control w-25 mx-1 mb-3" type="email" placeholder="Новостная рассылка"
                                aria-label="Email">
-                        <button class="btn btn-outline-warning mb-3" type="submit">Подписаться</button>
+                        <button class="btn btn-warning mb-3" type="submit">Подписаться</button>
                     </form>
                 </li>
                 <li>
