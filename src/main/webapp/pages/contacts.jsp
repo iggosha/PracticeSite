@@ -19,7 +19,7 @@
 
     <%--Карта и адреса--%>
 
-    <div class="row">
+    <div class="row mx-5 mt-5 pt-2 border border-1 border-primary rounded">
         <div class="col-6">
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A80989f2d1e83eb2216c0de9611d071d4615e88f035b52f834f94daa0086c572f&amp;source=constructor"
                     height="512px" class="w-100"></iframe>
@@ -82,7 +82,7 @@
 
         <div class="row ">
             <div class="col d-flex justify-content-center">
-            <form class="w-50  border border-1 border-primary p-5 mb-5">
+            <form class="w-50  border border-1 border-primary p-5 mb-5 rounded">
                 <h5>Форма обратной связи для отзывов или обращений</h5>
                 <div class="form-group">
                     <label for="name">Имя:</label>

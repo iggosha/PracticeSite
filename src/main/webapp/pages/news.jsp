@@ -77,7 +77,7 @@
         </div>
     </div>
 </div>
-<div class="container bg-dark text-light border border-5 border-opacity-25 border-primary">
+<div class="container bg-dark text-light border border-5 border-opacity-25 border-primary pb-3">
     <%--Аккордеон для ЧаВо--%>
     <div class="row my-1">
         <div class="col text-light">
